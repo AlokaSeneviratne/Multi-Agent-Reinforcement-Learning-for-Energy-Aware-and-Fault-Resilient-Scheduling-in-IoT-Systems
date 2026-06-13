@@ -22,4 +22,4 @@ In the accompanying report, PPO, DDRQN, and MADDPG were each tested on a 5-priso
 | DDRQN | 93% |
 | MADDPG (this repo) | 51% |
 
-DDRQN performed best overall and was used for the full-scale 100-prisoner experiment, reaching a 99.5% success rate. MADDPG, implemented here, is included as a CTDE comparison baseline — its lower performance reflects the added difficulty of adapting a continuous-action algorithm to this discrete, sequential puzzle via Gumbel-Softmax relaxation.
+DDRQN performed best overall and was used for the full-scale 100-prisoner experiment, reaching a 99.5% success rate. MADDPG, implemented here, is included as a CTDE comparison baseline and its lower performance reflects the added difficulty of adapting a continuous-action algorithm to this discrete, sequential puzzle via Gumbel-Softmax relaxation.
