@@ -1,9 +1,5 @@
 # Multi-Agent Reinforcement Learning for Energy-Aware and Fault-Resilient Scheduling in Industrial IoT Manufacturing Systems
 
-### MADDPG-style CTDE Implementation for the 100 Prisoners Hats Puzzle (CUDA)
-
-This project implements a MADDPG-style (Multi-Agent Deep Deterministic Policy Gradient) trainer using Centralized Training with Decentralized Execution (CTDE), applied to the classic 100 prisoners and hats riddle. It serves as the experimental component of a broader study on applying multi-agent reinforcement learning (MARL) to energy-aware, fault-resilient scheduling in industrial IoT manufacturing systems.
-
 ## Background
 
 Modern manufacturing environments are distributed and dynamic, with heterogeneous machines, unpredictable workloads, and strict efficiency requirements. Traditional centralized control struggles to adapt when conditions change, while single-agent RL models lose autonomy and require retraining whenever the environment shifts.
